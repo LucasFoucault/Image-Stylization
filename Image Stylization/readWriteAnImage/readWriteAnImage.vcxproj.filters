@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Strokers">
+      <UniqueIdentifier>{4b1b1f06-e560-457f-a76d-4cebcf53cff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Strockers">
+      <UniqueIdentifier>{b5a80d53-7ee2-4437-959b-b4ebbd401895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LowPoly">
+      <UniqueIdentifier>{8a053eb0-fa67-4ab8-8b33-2ea4c7ad775e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LowPoly">
+      <UniqueIdentifier>{cf6eb2ac-3ef1-4ff7-98fc-d91b2a49b57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface">
+      <UniqueIdentifier>{a3804ca5-a5c0-4115-8e76-7fadf2283448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{0ff76962-f03a-4c7c-9093-e85f469bc079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{831d2fb7-6fd5-4113-af64-870b83aa7148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FlowField">
+      <UniqueIdentifier>{26cb375d-8bb4-4f56-b01e-9d07a618226e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FlowField">
+      <UniqueIdentifier>{95faa678-a387-42fe-a543-84c8284258a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StraightStrocker.cpp">
+      <Filter>Source Files\Strockers</Filter>
+    </ClCompile>
+    <ClCompile Include="TensorStraightStroker.cpp">
+      <Filter>Source Files\Strockers</Filter>
+    </ClCompile>
+    <ClCompile Include="TensorCurvedStrocker.cpp">
+      <Filter>Source Files\Strockers</Filter>
+    </ClCompile>
+    <ClCompile Include="TensorBrushStroker.cpp">
+      <Filter>Source Files\Strockers</Filter>
+    </ClCompile>
+    <ClCompile Include="DelaunayTriangulation.cpp">
+      <Filter>Source Files\LowPoly</Filter>
+    </ClCompile>
+    <ClCompile Include="VoronoiDiagram.cpp">
+      <Filter>Source Files\LowPoly</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientBasedStroker.cpp">
+      <Filter>Source Files\Strockers</Filter>
+    </ClCompile>
+    <ClCompile Include="LowPolyRenderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="PyramidalStrokeRenderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="StrokeRenderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="TensorBasedStroker.cpp">
+      <Filter>Source Files\Strockers</Filter>
+    </ClCompile>
+    <ClCompile Include="TensorBasedLowPoly.cpp">
+      <Filter>Source Files\LowPoly</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\FlowField</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StraightStroker.h">
+      <Filter>Header Files\Strokers</Filter>
+    </ClInclude>
+    <ClInclude Include="MatTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TensorStraightStroker.h">
+      <Filter>Header Files\Strokers</Filter>
+    </ClInclude>
+    <ClInclude Include="TensorCurvedStroker.h">
+      <Filter>Header Files\Strokers</Filter>
+    </ClInclude>
+    <ClInclude Include="TensorBrushStroker.h">
+      <Filter>Header Files\Strokers</Filter>
+    </ClInclude>
+    <ClInclude Include="DelaunayTriangulation.h">
+      <Filter>Header Files\LowPoly</Filter>
+    </ClInclude>
+    <ClInclude Include="VoronoiDiagram.h">
+      <Filter>Header Files\LowPoly</Filter>
+    </ClInclude>
+    <ClInclude Include="IStroker.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IStrokeRenderer.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="LowPolyRenderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="PyramidalStrokeRenderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="StrokeRenderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GradientBasedStroker.h">
+      <Filter>Header Files\Strokers</Filter>
+    </ClInclude>
+    <ClInclude Include="TensorBasedStroker.h">
+      <Filter>Header Files\Strokers</Filter>
+    </ClInclude>
+    <ClInclude Include="ILowPolyRenderer.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ILowPoly.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="TensorBasedLowPoly.h">
+      <Filter>Header Files\LowPoly</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\FlowField</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
