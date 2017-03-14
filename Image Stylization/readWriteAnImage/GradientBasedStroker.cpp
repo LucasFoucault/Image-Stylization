@@ -73,7 +73,7 @@ void GradientBasedStroker::DefineTreshold(const float& percent)
 	int accumulation = 0;
 	for(int i = norm_hist.rows-1; i>=0; i--)
 	{
-		accumulation += norm_hist.at<float>(i); // PROBLEME LA !!!
+		accumulation += norm_hist.at<float>(i);
 		cout << norm_hist.at<float>(i) << endl;
 
 		if(accumulation > percent*_gradientAmplitude.rows*_gradientAmplitude.cols)
